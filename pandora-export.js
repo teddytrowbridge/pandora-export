@@ -29,10 +29,10 @@ setTimeout(function()
     setTimeout(function()
     {
         $('#profile_tab_likes').click();
-        var interval = setInterval(function()
+        setInterval(function()
         {
             findAllSongs();
             $('.show_more:visible').last().click();     
-        }, 500);
+        }, 250);
     }, 100);
 }, 100);
